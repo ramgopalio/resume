@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://ramgopalio.github.io"
+#baseURL = "https://ramgopalio.github.io"
 languageCode = "en"
 title = "ram.resume"
 theme = "hugo-devresume-theme"
