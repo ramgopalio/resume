@@ -22,12 +22,12 @@ publishDir = "docs"
 
 
 
-
     [params.profile]
         enable = true
         name = "ram gopal"
         tagline = "QA Manager - Testing"
         avatar = "avatar.png"
+          
 
 
 
