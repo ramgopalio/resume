@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ram.resume</title>
-    <link>https://ramgopalresume.netlify.app/</link>
+    <link>https://ramresume.netlify.app/</link>
     <description>Recent content on ram.resume</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://ramgopalresume.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://ramresume.netlify.app/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://ramresume.netlify.app/"
+baseURL = "https://ramgopalio.github.io/resume/"
 languageCode = "en"
 title = "ram.resume"
 theme = "hugo-devresume-theme"
