@@ -1,0 +1,481 @@
+# Page settings
+
+baseURL = "https://ramgopalio.github.io/resume/"
+languageCode = "en"
+title = "ram.resume"
+theme = "hugo-devresume-theme"
+publishDir = "docs"
+#googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "ramgopalio"
+    description = "DevResume"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "ram gopal"
+        tagline = "QA Manager - Testing"
+        avatar = "avatar.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "India"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "+(91)-9989-894-894"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "ramgopalio@outlook.in"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "www.ramgopal.io"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "ADOBE EXPERIENCE MANAGER"
+        [[params.skills.list.items]]
+        details = "Insomnia/Postman/Apache JMeter/Swagger"
+        [[params.skills.list.items]]
+        details = "MongoDB/Oracle SQL Developer"
+        [[params.skills.list.items]]
+        details = "Grafana/ELK Stack"
+        [[params.skills.list.items]]
+        details = "Jenkins/Docker"
+#        [[params.skills.list.items]]
+#       details = "Design and implement database structures"
+#        [[params.skills.list.items]]
+#        details = "Lead and deliver complex software systems"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Good time management"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Bachelor of Computer Application"
+#        university = "Sikkim Manipal University, India"
+#       dates = "2010 - 2011"
+        [[params.education.list]]
+        degree = "Board of Intermediate Education"
+#        university = "Imperial College London"
+#       dates = "2007 - 2010"
+        [[params.education.list]]
+        degree = "Board Of Secondary Education"
+#        university = "Imperial College London"
+#       dates = "2007 - 2010"
+
+#        [[params.education.list]]
+#        degree = "MSc in Computer Science"
+#        university = "University College London"
+#        dates = "2010 - 2011"
+#        [[params.education.list]]
+#        degree = "BSc Maths and Physics"
+#        university = "Imperial College London"
+#        dates = "2007 - 2010"
+
+
+
+
+
+
+
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = false
+
+        [[params.languages.list]]
+        name = "Telugu"
+        level = "Native"
+        [[params.languages.list]]
+        name = "English"
+        level = "Professional"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = false
+
+        [[params.interests.list]]
+        name = "Climbing"
+        [[params.interests.list]]
+        name = "Snowboarding"
+        [[params.interests.list]]
+        name = "Photography"
+        [[params.interests.list]]
+        name = "Travelling"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "9 years of extensive experience in Software Quality Assurance in various domains such as E - Commerce, Banking, Telecom, Healthcare, Hotels, Insurance. Well-acquainted with all phases of the Software Test Life Cycle (STLC), Testing Methodologies and Defect Management Life Cycle. Extensive experience in Manual and Automated testing of Web Applications, Web Services, Mobile Applications, Content Management Systems, Client/server, and Back-end. Vast experience in Agile development environment. Experience in managing and leading QA teams across different geographies ."
+
+
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+#        title = "Sr.Software QA Manager"
+#        dates = "2022"
+#        company = "PAYBACK India"
+#       details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+      	 [[params.experience.list.items]]
+        details = "Experience in creating Test Plans, defining Test Scenarios and Test Cases, developing, and maintaining test scripts, analyzing bugs, coordinating with development team and track the bug fixes till closure."
+	[[params.experience.list.items]]
+        details = "Expertise in documenting defects with high level of detail, accuracy, and informative recreation steps using Rally, Quality Center, JIRA."
+	[[params.experience.list.items]]
+        details = "Experienced in writing SQL verification scripts to test the result of deployment for correct business logic for Back - end testing. "
+	[[params.experience.list.items]]
+        details = "Strong knowledge of Software Development Life Cycle (SDLC) methodologies such as Agile, SCRUM and waterfall models and Ad-hoc. procedures."
+	[[params.experience.list.items]]
+        details = "Key expertise includes testing & debugging GUI & Multi-Applications environment & performance testing using Apache JMeter "
+	[[params.experience.list.items]]		
+        details = "Proficient in using various tools like Adobe CQ/AEM,CRXDE, CRXDE-Lite, custom CQ components on top of JCR (Java Content Repository) and Apache Sling, CRX, and CQ6.3. modules and OSGI bundles."
+	[[params.experience.list.items]]
+        details = "Proficient on Automation tool Selenium for testing Client Server and Web based Applications. Expertise in using Selenium WebDriver API to automate tests on cross browser and cross platform environment."
+	[[params.experience.list.items]]
+        details = "Extensive experience in requirements gathering, analysis, design, development, unit testing, integration, code review, implementation, and support activities. "
+	[[params.experience.list.items]]
+        details = "48 releases 1500+ test scenarios 35 critical integration bugs identified and helped team in fixing before Go-goL live and helped in addressing 100+ customer issues. "
+	[[params.experience.list.items]]
+        details = "Completed QA and minimized testing timelines in Single Handed managed testing across all the environments like UAT, Pre-Prod and Prod for the most complex Portal which has the user limit of ~189Million and Post UAT no issues were reported either by Business Team or Go-Live defects and Short-term Test release has ZERO compromise on the Quality, Timely Delivery & Tested Build has ZERO Prod Issues reported "
+	[[params.experience.list.items]]
+        details = "Automation using Selenium, Eclipse along with Junit. Performed Data driven testing using Selenium WebDriver, Junit functions and JDBC Connections which reads data from scripts using property and XML files. & Responsible for Backend testing by executing SQL statements"
+        [[params.experience.list.items]]
+        details = "Implemented Automation greatly helped reduce the time to build testing by allowing constant execution of automation test cases. This helped for the testing to be carried out repeatedly &, continuous delivering ,delivering,delivering faster results each time with lesser effort and time."
+#	[[params.experience.list.items]]
+#        details = ""
+
+
+
+
+
+
+
+
+
+        [[params.experience.list]]
+        title = "Software QA Manager"
+        dates = "2020 - Present"
+        company = "PAYBACK India"
+#        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."
+        [[params.experience.list.items]]
+        details = "Organized and facilitated 48 sprint planning, daily stand-up meetings, reviews, retrospectives, release planning, demos and other Agile -related meetings."
+[[params.experience.list.items]]
+        details = "Worked with the leads to identify cross-team dependencies and manage inter-team tasks."
+[[params.experience.list.items]]
+        details = "Track and communicate team velocity and sprint/release progress. Communicate with other management, engineers, product managers and support specialists on product issues."
+[[params.experience.list.items]]
+        details = "Participated in requirement reviews to ensure the requirements are complete and testable."
+[[params.experience.list.items]]
+        details = "Prepared 100+ test strategy and test plan documents for the project."
+[[params.experience.list.items]]
+        details = "Worked with automation team in identifying end to end test scenarios to be automated. Reviewed test scripts created by the team. Driven and followed up on Client reviews and sign off."
+[[params.experience.list.items]]
+        details = "Verify automated test results and raise defects in JIRA."
+[[params.experience.list.items]]
+        details = "Worked with team in validating page templates, components, Page and DAM properties, authoring pages validating against design document, functional testing."
+[[params.experience.list.items]]
+        details = "Identified and escalated issues/risks on time and followed up till the closure. Created risk mitigation plan. Resolved issues and dependencies in the team."
+[[params.experience.list.items]]
+        details = "Managed and lead QA track successfully by mentoring, helping and assuring people growth."
+[[params.experience.list.items]]
+        details = "Prepared test coverage and defects reports. Keep track of the new requirements/change in the requirements. Facilitated Defect Triage meetings."
+#[[params.experience.list.items]]
+#        details = ""
+
+
+
+
+
+
+
+
+
+
+
+
+        [[params.experience.list]]
+        title = "Assistant QA Manager"
+        dates = "2019 - 2020"
+        company = "PAYBACK India"
+#        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel."
+        [[params.experience.list.items]]
+        details = "Involved in requirement walkthrough phase, understanding the testing effort by analyzing the requirements. Developed Test Plan and Test Strategy documents. "
+[[params.experience.list.items]]
+        details = "Created and executed end-to-end test scripts based on Business requirements and Technical Specifications. Managed test scripts, test execution, defect reporting using bugzilla."
+[[params.experience.list.items]]
+        details = "Created and executed SQL scripts to validate end user data with the actual data in the database."
+[[params.experience.list.items]]
+        details = "Reviewed test scripts created by the team. Driven and followed up on reviews and sign off."
+[[params.experience.list.items]]
+        details = "Performed Sanity, Navigational, Functional, Integration, System and Regression testing on the application under test."
+[[params.experience.list.items]]
+        details = "Performed Web Service testing using SOAP UI. Trained end-users on the application"
+[[params.experience.list.items]]
+        details = "Creation of test data to test specific Business user flows. Worked with data validation, constraints, source to target row counts. Verified SQL packages as per business rules using Oracle SQL Developer"
+[[params.experience.list.items]]
+        details = "Facilitated Defect Triage meetings. Prepared Test Coverage and Defect Reports. Kept track of the new requirements/change in the requirements."
+[[params.experience.list.items]]
+        details = "Ensured timely notification of issues/problems and make recommendations for issue/problem resolution to project team and resolve and/or escalate testing issues where required."
+#[[params.experience.list.items]]
+#        details = ""
+
+
+
+
+
+
+
+
+
+        [[params.experience.list]]
+        title = "Associate Team Lead - Testing"
+        dates = "2014 - 2016"
+        company = "CresTech – Client PAYBACK "
+#        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+[[params.experience.list.items]]
+        details = "Accountable for all phases of testing for projects (ATR, HCM, AR) including System Integration Test (SIT), Business Acceptance Testing (BAT) and Warranty support."
+[[params.experience.list.items]]
+        details = "Lead test team in the delivery of Test Planning, Test Preparation and Test Execution activities in adherence to standards for System Integration Test."
+[[params.experience.list.items]]
+        details = "Coordinated the planning and support of Business Acceptance Testing (BAT) with BA’s."
+[[params.experience.list.items]]
+        details = "Manage creation, review and sign off of testing documentation (e.g. test strategies, plans, schedule, test cases, dashboards, defect logs, test phase closure reports) ensuring all test artifacts adhere to standards and are stored in the project SharePoint site."
+[[params.experience.list.items]]
+        details = "Understand and communicate testing impact of scope changes/PCRs to the project management team both from a timeline and a risk perspective."
+[[params.experience.list.items]]
+        details = "Facilitate the daily defect / status calls. Report the status of test planning, test execution and defects to project team."
+[[params.experience.list.items]]
+        details = "Created and executed high complexity End-to-End test scripts in Quality Center (ALM); when required to ensure test teams meet project timelines."
+[[params.experience.list.items]]
+        details = "Managed sign off of Test Strategy, Test Plan with appropriate project partners. Participated in Audit reviews of Test Artifacts."
+[[params.experience.list.items]]
+        details = "Ensure timely notification of issues/problems and make recommendations for issue/problem resolution to project team and resolve and/or escalate testing issues where required."
+
+
+
+
+
+
+
+
+
+
+        [[params.experience.list]]
+        title = "Senior Software Test Engineer"
+        dates = "2013 - 2014"
+        company = "PAYBACK India"
+#        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+        [[params.experience.list.items]]
+        details = "Analyzed business requirements, system requirements, data mapping requirement specifications, and responsible for documenting functional requirements and supplementary requirements in Quality Center (ALM)."
+	[[params.experience.list.items]]
+        details = "Involved in preparing Test Plan and Test Strategy.Provided inputs on estimation of tasks broken down to different sections."
+	[[params.experience.list.items]]
+        details = "Created test cases , test reports & test data for testing specific Functional flow."
+	[[params.experience.list.items]]
+        details = "Performed data analysis and data profiling using SQL and Informatica Data Explorer on various sources systems."
+	[[params.experience.list.items]]
+        details = "Worked with data validation, constraints, source to target row counts. Tested SQL job sets as per business rules using Oracle SQL Developer."
+	[[params.experience.list.items]]
+        details = "Allocation of work among the team.Analyzing Risks and Creation of Mitigation Plans. Arrange the hardware and software requirements for the Test Setup."
+	[[params.experience.list.items]]
+        details = "Tracking change requests.Driving defect triage meetings.Preparing Test Coverage and Defect Reports.Communicate with Clients,Management and Development Team on status."
+#	 [[params.experience.list.items]]
+#        details = "Etiam ultricies nisi vel augue."
+
+
+
+
+
+
+
+
+
+
+#        [[params.experience.list]]
+#        title = "Backend Developer"
+#        dates = "2014 - 2016"
+#        company = "PAYBACK"
+#        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+
+
+
+
+
+
+
+
+
+#        [[params.experience.list]]
+#       title = "Frontend Developer"
+#        dates = "2013 - 2014"
+#        company = "PAYBACK"
+#       details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+
+
+
+
+
+
+
+
+
+
+
+    [params.projects]
+        enable = false
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "each time with lesser effort and time."
+
+        [[params.projects.list]]
+        title = "Project Sed Fringilla"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+        [[params.projects.list]]
+        title = "Project Praesent"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = false
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/ramgopalio"
+        title = "ramgopalio"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/ramgopalio"
+        title = "ramgopalio"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/ramgopalio"
+        title = "@ramgopalio"
+
+
+
+
+[params.footer]
+    copyright = "ramgopalio"
+

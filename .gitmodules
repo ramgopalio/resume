@@ -1,0 +1,3 @@
+[submodule "/home/ram/downloads/hugo/webpages/resume/themes/hugo-devresume-theme"]
+	path = /home/ram/downloads/hugo/webpages/resume/themes/hugo-devresume-theme
+	url = https://github.com/cowboysmall-tools/hugo-devresume-theme.git
