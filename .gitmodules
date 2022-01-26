@@ -6,4 +6,12 @@
 	url = https://github.com/cowboysmall-tools/hugo-devresume-theme
 [submodule "hugo-devresume-theme"]
         path = themes/hugo-devresume-theme
-        url = https://github.com/cowboysmall-tools/hugo-devresume-theme.git
+	url = https://github.com/cowboysmall-tools/hugo-devresume-theme
+[submodule "hugo-devresume-theme"]
+        path = /home/ram/downloads/hugo/webpages/resume/hugo-devresume-theme
+	url = https://github.com/cowboysmall-tools/hugo-devresume-theme
+[submodule "hugo-devresume-theme"]
+        path = /home/ram/downloads/hugo/webpages/resume/themes/hugo-devresume-theme
+        url = https://github.com/cowboysmall-tools/hugo-devresume-theme
+
+
