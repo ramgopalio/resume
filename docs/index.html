@@ -431,8 +431,36 @@
     
     <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
 
-    
 
+    <!--sending-automated-discord-messages-through-webhooks-using-javascript comments by ram--->
+    <script>
+    var request = new XMLHttpRequest();
+request.open("POST", "https://discord.com/api/webhooks/1045762855280062604/8d0cMheTQn-c5MQO0hQ32FeEQqh7eqd_wK9luTH9NPgK_tAMBxhOkyPhFUBZENCU6-6M");
+
+request.setRequestHeader('Content-type', 'application/json');
+
+var myEmbed = {
+  author: {
+    name: "ram.resume typing..."
+  },
+  title: "ram.resume",
+  description: "New visitor on ram.resume.html",
+  color: hexToDecimal("#ff0000")
+}
+
+var params = {
+  username: "ramhooks",
+  embeds: [ myEmbed ]
+}
+
+request.send(JSON.stringify(params));
+
+// function that converts a color HEX to a valid Discord color
+function hexToDecimal(hex) {
+  return parseInt(hex.replace("#",""), 16)
+}
+
+    </script>
 
 </body>
 
